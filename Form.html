@@ -1,0 +1,61 @@
+<html>
+   <head>
+       <title>Nokia Feedback Form</title>
+   </head>
+   <body>
+       <form>
+        <h1>Nokia Feedback</h1>
+        <p>Please Answer The Following Questions</p> <br>
+ 
+        <!--This is for radio button-->
+        <h3>Select your gender</h3>
+        <input type="radio" id="Male" name="gender">
+        <label for="Male">Male</label> <br>
+ 
+        <input type="radio" id="Female" name="gender">
+        <label for="Female">Female</label> <br>
+ 
+        <input type="radio" id="Other" name="gender">
+        <label for="Other">Other</label> <br><br>
+        
+        <h3>How long have you been using this device?</h3>
+        <label for="In Months">In months:</label>
+        <input type="number" placeholder="In Months" > <br><br>
+ 
+        <!--For drop down menu-->
+        <h3>Would you recommend your Nokia phone?</h3>
+        <select name="feedack" id="">
+            <option value="5">Definitely, I would!</option>
+            <option value="4">I think I would</option>
+            <option value="3">Maybe/Maybe not</option>
+            <option value="2">I dont think so</option>
+            <option value="1">No, I won't</option>
+        </select> <br>
+ 
+        <!--For checkbox-->
+        <h3>Select the locations where you have used this Nokia Device</h3>
+        <input type="checkbox" id="Nigeria">
+        <label for="Nigeria">Nigeria</label> <br>
+
+        <input type="checkbox" id="South Africa">
+        <label for="South Africa">South Africa</label> <br>
+
+        <input type="checkbox" id="USA">
+        <label for="USA">USA</label> <br>
+
+        <input type="checkbox" id="France">
+        <label for="France">France</label> <br>
+
+        <input type="checkbox" id="Canada">
+        <label for="Canada">Canada</label> <br>
+
+        <!--For text area-->
+        <h3>Any other Comment?</h3>
+        <textarea name="" id="Area" cols="30" 
+        rows="10" placeholder="Enter your comment here"></textarea>
+        <br><br>
+
+        <input type="submit" value="Send">
+       </form>
+   </body>
+</html>
